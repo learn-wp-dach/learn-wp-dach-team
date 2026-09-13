@@ -34,7 +34,7 @@ flowchart TD
 ### 1. Nächste Sitzung anlegen *(Moderation der laufenden Sitzung, am Sitzungsende)*
 
 1. Unter dem festen Tagesordnungspunkt 6 bestimmt das Team, wer die nächste Sitzung moderiert und wer protokolliert.
-2. Die Moderation der **laufenden** Sitzung erstellt noch in der Sitzung das nächste Sitzungs-Issue: [Issues-Übersicht](https://github.com/rfluethi/learn-wp-dach-team/issues) → **New issue** → Vorlage **Sitzung**.
+2. Die Moderation der **laufenden** Sitzung erstellt noch in der Sitzung das nächste Sitzungs-Issue: [Issues-Übersicht](https://github.com/learn-wp-dach/learn-wp-dach-team/issues) → **New issue** → Vorlage **Sitzung**.
 3. Sie setzt den Titel im Format `Sitzung JJJJ-MM-TT` (nächster Termin: letzter Dienstag des Folgemonats) und trägt in die Kopfzeilen Datum, Uhrzeit und die eben bestimmten Namen für Moderation und Protokollführung ein.
 4. Sie erstellt das Issue.
 
@@ -47,7 +47,7 @@ Eine Automatisierung liest alle Sitzungs-Issues und erzeugt daraus die Tabelle �
 
 ### 2. Sitzung vorbereiten *(neue Moderation, in der Woche vor der Sitzung)*
 
-1. Die Moderation verlinkt alle eingereichten Themen-Issues im Abschnitt **Diskussionsthemen** des Sitzungs-Issues: `- [ ] #42`. Die eingereichten Themen findet sie im [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) in der Ansicht *Sitzungsvorbereitung*.
+1. Die Moderation verlinkt alle eingereichten Themen-Issues im Abschnitt **Diskussionsthemen** des Sitzungs-Issues: `- [ ] #42`. Die eingereichten Themen findet sie im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) in der Ansicht *Sitzungsvorbereitung*.
 2. Sie legt die Reihenfolge der Themen fest und prüft anhand der Estimate-Werte, ob alles in die Sitzung passt.
 3. Sie setzt den Board-Status des Sitzungs-Issues auf **In Arbeit**: Sitzungs-Issue im Board anklicken, im Panel rechts **Status → In Arbeit** wählen.
 

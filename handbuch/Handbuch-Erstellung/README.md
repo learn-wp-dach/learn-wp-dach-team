@@ -54,7 +54,7 @@ Ein zentrales Glossar gibt es bewusst nicht: Jede Seite definiert ihre Fachbegri
 Der Skill `handbuch-autor` ist die maschinenlesbare Umsetzung dieses Regelwerks: Ein KI-Assistent lädt ihn und schreibt, überarbeitet, teilt, prüft oder erfasst dann Handbuch-Seiten regelkonform. Menschen lesen die Regelwerk-Seiten, die KI liest den Skill; bei Widersprüchen gilt das Regelwerk.
 
 * **Was er kann, wie er aufgebaut ist, Download und Einbindung:** [skill-handbuch-autor.md](skill-handbuch-autor.md).
-* **Quelldateien:** im Repository unter [skills/handbuch-autor/](https://github.com/rfluethi/learn-wp-dach-team/tree/main/skills/handbuch-autor/). Sie liegen bewusst außerhalb des Handbuch-Ordners, damit der Handbuch-Import sie nicht miterfasst.
+* **Quelldateien:** im Repository unter [skills/handbuch-autor/](https://github.com/learn-wp-dach/learn-wp-dach-team/tree/main/skills/handbuch-autor/). Sie liegen bewusst außerhalb des Handbuch-Ordners, damit der Handbuch-Import sie nicht miterfasst.
 
 ## Wie die Seiten zusammenhängen
 

@@ -6,7 +6,7 @@ Dieses Repository enthält keine Software-Releases. Die Sicherheitsrichtlinie be
 
 ## Sicherheitsprobleme melden
 
-Falls du ein Sicherheitsproblem in einem der Workflows oder in der Repository-Konfiguration entdeckst (z.B. unsichere Verwendung von Secrets, Command-Injection-Risiken), erstelle ein [neues Issue](https://github.com/rfluethi/learn-wp-dach-team/issues/new) mit dem Titel `[SECURITY] Kurze Beschreibung` und benachrichtige anschliessend ein Team-Mitglied direkt per Nachricht oder Kommentar.
+Falls du ein Sicherheitsproblem in einem der Workflows oder in der Repository-Konfiguration entdeckst (z.B. unsichere Verwendung von Secrets, Command-Injection-Risiken), erstelle ein [neues Issue](https://github.com/learn-wp-dach/learn-wp-dach-team/issues/new) mit dem Titel `[SECURITY] Kurze Beschreibung` und benachrichtige anschliessend ein Team-Mitglied direkt per Nachricht oder Kommentar.
 
 Wir werden das Problem so schnell wie möglich prüfen und beheben.
 

@@ -64,7 +64,7 @@ Bevor ein Sitzungs-Issue geschlossen wird, muss mindestens ein weiteres Teammitg
 * [Aufgaben-Board](aufgaben-board.md)
 * [Issue-Typen und Labels](issue-typen-und-labels.md)
 * [Häufige Fragen](haeufige-fragen.md)
-* [Setup-Anleitung](https://github.com/rfluethi/learn-wp-dach-team/blob/main/docs/setup.md) – technische Einrichtung (für Admins, nur im Repository)
+* [Setup-Anleitung](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/docs/setup.md) – technische Einrichtung (für Admins, nur im Repository)
 
 ## Seiten-Glossar
 

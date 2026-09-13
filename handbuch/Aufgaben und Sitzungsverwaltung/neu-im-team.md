@@ -18,11 +18,11 @@ Unsere Themen, Sitzungen und Aufgaben leben in einem GitHub-Repository, einem ge
 ## Schritte
 
 1. **Erstelle ein GitHub-Konto**, falls du noch keines hast: [github.com/signup](https://github.com/signup). Der kostenlose Account genügt.
-2. **Öffne unser Repository** [learn-wp-dach-team](https://github.com/rfluethi/learn-wp-dach-team). Auf der Startseite siehst du die anstehenden Sitzungen und die Protokolle; diese Tabellen werden automatisch gepflegt.
+2. **Öffne unser Repository** [learn-wp-dach-team](https://github.com/learn-wp-dach/learn-wp-dach-team). Auf der Startseite siehst du die anstehenden Sitzungen und die Protokolle; diese Tabellen werden automatisch gepflegt.
 3. **Aktiviere die Benachrichtigungen:** Klicke im Repository oben auf **Watch** und wähle **All activity**. So bekommst du mit, was im Team läuft.
     ![Das aufgeklappte Watch-Menü des Repositorys mit der Auswahl All activity.](_attachments/watch-aktivieren.webp)
 4. **Lass dich als Collaborator einladen:** Melde deinen GitHub-Namen der Repository-Administration, zum Beispiel in der nächsten Sitzung. Erst mit dieser Einladung kannst du Labels setzen und Karten im Board verschieben; Issues lesen und erstellen kannst du schon vorher.
-5. **Schau dir das [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) an.** Die Ansicht *My items* zeigt später deine eigenen Aufgaben. Wie das Board funktioniert, erklärt die Seite [Aufgaben-Board](aufgaben-board.md).
+5. **Schau dir das [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) an.** Die Ansicht *My items* zeigt später deine eigenen Aufgaben. Wie das Board funktioniert, erklärt die Seite [Aufgaben-Board](aufgaben-board.md).
    ![Das Aufgaben-Board in der Ansicht My items mit den eigenen Aufgaben.](_attachments/board-my-items.webp)
 6. **Nimm an der nächsten Sitzung teil.** Wir treffen uns am letzten Dienstag des Monats um 20:00 Uhr; Termin und Zugang stehen im Sitzungs-Issue auf der Repository-Startseite. In der Begrüßung ist Platz für eine Vorstellungsrunde.
 7. **Werde aktiv:** Schlage ein [Thema für die Sitzung vor](thema-vorschlagen.md) oder übernimm im Board eine Aufgabe aus der Spalte *Offen*, indem du dich als **Assignee** einträgst.

@@ -6,7 +6,7 @@ Diese Seite zeigt, wo unser Regelwerk anerkannten Normen und Leitlinien folgt un
 
 ## Worum geht es
 
-Pro Standard steht, was er fordert, was wir in das [Regelwerk Handbuch-Erstellung](README.md) und den Skill [handbuch-autor](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/SKILL.md) übernommen haben und wo wir begründet abweichen. Die Links führen zu informierenden Quellen (Wikipedia, freie Spezifikationen, frei lesbare Norm-Auszüge), nicht zu Verkaufsseiten.
+Pro Standard steht, was er fordert, was wir in das [Regelwerk Handbuch-Erstellung](README.md) und den Skill [handbuch-autor](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/SKILL.md) übernommen haben und wo wir begründet abweichen. Die Links führen zu informierenden Quellen (Wikipedia, freie Spezifikationen, frei lesbare Norm-Auszüge), nicht zu Verkaufsseiten.
 
 ## Einordnung
 
@@ -18,12 +18,12 @@ Unser Handbuch ist ein **internes Organisations- und Arbeitshandbuch** eines kle
 
 **Fordert u.a.:** Zielgruppenanalyse, Informationsarten trennen (instruktiv/konzeptionell/referenziell), Minimalismus (nur handlungs- oder entscheidungsrelevante Information), Verständlichkeit, definierte Erstellungs- und Prüfprozesse, qualifizierte Ersteller, Sicherheits- und Warnhinweise.
 
-**Übernommen:** Trennung der Informationsarten (über Diátaxis, strenger als die Norm), Zielgruppenanalyse (zwei definierte Zielgruppen mit Progressive Disclosure), Minimalismus als Prüffrage in [Schreibregeln](schreibregeln-und-markdown.md) und [Review-Checkliste](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/review-checkliste.md) („unterstützt dieser Absatz eine Handlung oder Entscheidung?"), definierter [Erstellungs- und Reviewprozess](erstellungs-und-pflegeprozess.md). Dazu Warnungen vor irreversiblen Schritten, platziert **vor** dem Schritt.
+**Übernommen:** Trennung der Informationsarten (über Diátaxis, strenger als die Norm), Zielgruppenanalyse (zwei definierte Zielgruppen mit Progressive Disclosure), Minimalismus als Prüffrage in [Schreibregeln](schreibregeln-und-markdown.md) und [Review-Checkliste](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/review-checkliste.md) („unterstützt dieser Absatz eine Handlung oder Entscheidung?"), definierter [Erstellungs- und Reviewprozess](erstellungs-und-pflegeprozess.md). Dazu Warnungen vor irreversiblen Schritten, platziert **vor** dem Schritt.
 
 **Abweichungen, begründet:**
 
 * **Keine formale Konformitätserklärung und kein Warnhinweis-System nach Signalwortstufen** (GEFAHR/WARNUNG/VORSICHT). Unser Inhalt hat keine Personenschutz-Relevanz; ein fetter Hinweis vor irreversiblen Schritten genügt und hält die Seiten lesbar.
-* **Keine formal nachgewiesene Erstellerqualifikation.** Ersatz: Peer-Review-Pflicht plus Skill [handbuch-autor](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/SKILL.md), der die Regeln maschinell durchsetzt. Für ein Team dieser Größe ist gelebte Prüfung wirksamer als Qualifikationsnachweise.
+* **Keine formal nachgewiesene Erstellerqualifikation.** Ersatz: Peer-Review-Pflicht plus Skill [handbuch-autor](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/SKILL.md), der die Regeln maschinell durchsetzt. Für ein Team dieser Größe ist gelebte Prüfung wirksamer als Qualifikationsnachweise.
 
 ### [ISO 12100](https://de.wikipedia.org/wiki/ISO_12100), [ISO 20607](https://www.iso.org/obp/ui/#!iso:std:68519:en), [ANSI Z535.6](https://en.wikipedia.org/wiki/ANSI_Z535) (Maschinensicherheit)
 

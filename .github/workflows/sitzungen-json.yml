@@ -1,7 +1,8 @@
 name: sitzungen.json aktualisieren
 
 # Erzeugt aus allen Issues mit Label "sitzung" eine sitzungen.json
-# und committet sie auf den data-Branch.
+# und committet sie auf den data-Branch. Auf main wird nichts geschrieben,
+# die Sitzungen erscheinen auf learn-wp-dach.org (Beschluss 2026-09-12).
 #
 # Pfad-Empfehlung: .github/workflows/sitzungen-json.yml im Repo learn-wp-dach-team
 
@@ -63,42 +64,10 @@ jobs:
           echo "Erzeugte sitzungen.json:"
           jq . /tmp/sitzungen.json | head -40
 
-      - name: README auf main aktualisieren
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          python3 .github/scripts/render-sitzungen-readme.py \
-            --json /tmp/sitzungen.json \
-            --readme README.md
-
-          if git diff --quiet -- README.md; then
-            echo "README unverändert – nichts zu committen."
-          else
-            git add README.md
-            MSG="README: Sitzungsblock aktualisiert"
-            if [ -n "${{ github.event.issue.number }}" ]; then
-              MSG="${MSG} (Issue #${{ github.event.issue.number }})"
-            fi
-            git commit -m "${MSG}"
-
-            # Push mit Retry: falls Remote weiter ist (paralleler Run, manueller
-            # Commit), rebasen wir mit "unsere Version gewinnt" und versuchen
-            # nochmal. Bis zu 3 Versuche.
-            for attempt in 1 2 3; do
-              if git push origin main; then
-                break
-              fi
-              echo "Push abgelehnt (Versuch $attempt) — rebase + retry..."
-              git fetch origin main
-              git rebase -X ours origin/main || git rebase --abort
-            done
-          fi
-
       - name: data-Branch auschecken oder anlegen
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Learn WP DACH Automat"
+          git config user.email "actions@learn-wp-dach.org"
 
           # Versuche, den data-Branch zu checken.
           if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then

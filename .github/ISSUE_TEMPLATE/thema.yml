@@ -25,7 +25,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > **Zeitbedarf:** Nach dem Erstellen dieses Issues das Feld **Estimate** im [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) ausfüllen (Anzahl Minuten). So ist bei der Sitzungsplanung ersichtlich, wie lange die Sitzung dauern wird.
+        > **Zeitbedarf:** Nach dem Erstellen dieses Issues das Feld **Estimate** im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) ausfüllen (Anzahl Minuten). So ist bei der Sitzungsplanung ersichtlich, wie lange die Sitzung dauern wird.
 
   - type: textarea
     id: beschreibung

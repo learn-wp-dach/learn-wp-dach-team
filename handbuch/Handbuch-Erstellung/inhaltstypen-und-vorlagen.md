@@ -153,12 +153,12 @@ Die Vorlagen liegen bewusst nur an einem Ort: beim Skill `handbuch-autor` im Rep
 
 | Seitentyp | Vorlage |
 |---|---|
-| Anleitung (How-to) | [vorlage-anleitung.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-anleitung.md) |
-| Prozessbeschreibung | [vorlage-prozess.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-prozess.md) |
-| Tool-Übersicht | [vorlage-tool.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-tool.md) |
-| Rollen-/Organisationsbeschreibung | [vorlage-rolle.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-rolle.md) |
-| Hintergrund / Konzept | [vorlage-konzept.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-konzept.md) |
-| FAQ | [vorlage-faq.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-faq.md) |
+| Anleitung (How-to) | [vorlage-anleitung.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-anleitung.md) |
+| Prozessbeschreibung | [vorlage-prozess.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-prozess.md) |
+| Tool-Übersicht | [vorlage-tool.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-tool.md) |
+| Rollen-/Organisationsbeschreibung | [vorlage-rolle.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-rolle.md) |
+| Hintergrund / Konzept | [vorlage-konzept.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-konzept.md) |
+| FAQ | [vorlage-faq.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/vorlage-faq.md) |
 
 ## Verwandte Seiten
 

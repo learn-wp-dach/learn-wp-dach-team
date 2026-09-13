@@ -14,11 +14,11 @@ Ein Themen-Vorschlag ist ein GitHub-Issue: ein Eintrag, den alle lesen und komme
 ## Voraussetzungen
 
 * GitHub-Account
-* Zugriff auf das Repository [learn-wp-dach-team](https://github.com/rfluethi/learn-wp-dach-team)
+* Zugriff auf das Repository [learn-wp-dach-team](https://github.com/learn-wp-dach/learn-wp-dach-team)
 
 ## Schritte
 
-1. Öffne die [Issues-Übersicht](https://github.com/rfluethi/learn-wp-dach-team/issues) und klicke auf **New issue**.
+1. Öffne die [Issues-Übersicht](https://github.com/learn-wp-dach/learn-wp-dach-team/issues) und klicke auf **New issue**.
 2. Wähle die Vorlage **Thema**. Sie setzt das Label `thema` automatisch.
    ![Der Dialog Create new issue mit den Vorlagen Aufgabe, Sitzung und Thema.](_attachments/issue-vorlagen.webp)
 3. Fülle das Formular aus:
@@ -29,7 +29,7 @@ Ein Themen-Vorschlag ist ein GitHub-Issue: ein Eintrag, den alle lesen und komme
    * **Gewünschtes Ergebnis:** Was soll am Ende feststehen?
     ![Das Formular der Vorlage Thema mit den Feldern Vorgeschlagen von, Art des Themas, Beschreibung und Gewünschtes Ergebnis.](_attachments/thema-formular.webp)
 1. Erstelle das Issue.
-2. Öffne das Issue im [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) und fülle das Feld **Estimate** mit der geschätzten Anzahl Minuten aus.
+2. Öffne das Issue im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) und fülle das Feld **Estimate** mit der geschätzten Anzahl Minuten aus.
      ![Ein Themen-Issue im Aufgaben-Board, rechts das Seitenpanel mit dem Feld Estimate.](_attachments/estimate-feld.webp)
 ## Ergebnis
 

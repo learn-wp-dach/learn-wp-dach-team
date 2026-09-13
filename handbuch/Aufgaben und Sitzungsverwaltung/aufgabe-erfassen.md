@@ -19,7 +19,7 @@ Aufgaben entstehen meist aus Sitzungsbeschlüssen und werden als eigenes Issue g
 
 ## Schritte
 
-1. Öffne die [Issues-Übersicht](https://github.com/rfluethi/learn-wp-dach-team/issues) und klicke auf **New issue**.
+1. Öffne die [Issues-Übersicht](https://github.com/learn-wp-dach/learn-wp-dach-team/issues) und klicke auf **New issue**.
 2. Wähle die Vorlage **Aufgabe**. Sie setzt das Label `aufgabe` automatisch.
 3. Fülle das Formular aus:
    * **Titel:** Die Vorlage gibt `Aufgabe: ` vor; ergänze eine kurze Beschreibung.
@@ -32,12 +32,12 @@ Aufgaben entstehen meist aus Sitzungsbeschlüssen und werden als eigenes Issue g
    ![Das Formular der Vorlage Aufgabe mit den Feldern Verantwortlich, Fällig bis, Herkunft, Abhängigkeiten, Beschreibung und Erledigungskriterium.](_attachments/aufgabe-formular.webp)
 1. Weise die verantwortliche Person als Assignee zu.
 2. Erstelle das Issue.
-3. Öffne das Issue im [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) und trage die Fälligkeit im Feld **Datum** ein. So erscheint sie direkt auf der Karte.
+3. Öffne das Issue im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) und trage die Fälligkeit im Feld **Datum** ein. So erscheint sie direkt auf der Karte.
    ![Das Seitenpanel einer Aufgabe im Board mit gesetztem Feld Datum; die Fälligkeit erscheint auf der Karte.](_attachments/datum-feld.webp)
 
 ## Ergebnis
 
-Das Issue erscheint automatisch im [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) in der Spalte **Offen**, mit Label, Assignee und Fälligkeitsdatum auf der Karte.
+Das Issue erscheint automatisch im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) in der Spalte **Offen**, mit Label, Assignee und Fälligkeitsdatum auf der Karte.
 
 <details>
 <summary>Hintergrund: Warum ein Erledigungskriterium hilft</summary>

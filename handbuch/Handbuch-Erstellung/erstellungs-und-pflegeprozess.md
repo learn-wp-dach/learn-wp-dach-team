@@ -41,7 +41,7 @@ flowchart TD
 2. **Seitentyp festlegen** nach [Inhaltstypen und Vorlagen](inhaltstypen-und-vorlagen.md). Bei Mischform: aufteilen.
 3. **Vorlage wählen** (verlinkt in [Inhaltstypen und Vorlagen](inhaltstypen-und-vorlagen.md)).
 4. **Entwurf schreiben** nach den [Schreibregeln und Markdown-Konventionen](schreibregeln-und-markdown.md), inklusive Transport-Block am Ende.
-5. **Selbst-Check** mit der [Review-Checkliste](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/review-checkliste.md).
+5. **Selbst-Check** mit der [Review-Checkliste](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/review-checkliste.md).
 6. **Peer-Review** durch mindestens eine weitere Person, die das Thema fachlich kennt.
 7. **Freigabe** durch die inhaltsverantwortliche Rolle.
 8. **Erfassung in WordPress** über den Markdown-Import; der Transport-Block wird dabei zu Feldern.
@@ -95,7 +95,7 @@ Da wir das Handbuch in WordPress veröffentlichen, nutzen wir die WordPress-Revi
 
 ## Review-Checkliste
 
-Die verbindliche Checkliste liegt als einzige Quelle beim Skill: [review-checkliste.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/review-checkliste.md) . So gibt es nur eine Fassung, die nicht driften kann. Sie deckt Mischform-Check, Inhalt, Struktur, Sprache und Auffindbarkeit ab und ist die Grundlage von Selbst-Check und Peer-Review.
+Die verbindliche Checkliste liegt als einzige Quelle beim Skill: [review-checkliste.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/review-checkliste.md) . So gibt es nur eine Fassung, die nicht driften kann. Sie deckt Mischform-Check, Inhalt, Struktur, Sprache und Auffindbarkeit ab und ist die Grundlage von Selbst-Check und Peer-Review.
 
 ## Ergebnis
 

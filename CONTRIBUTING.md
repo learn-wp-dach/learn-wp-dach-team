@@ -16,7 +16,7 @@ Mehr dazu in der [Benutzeranleitung](docs/benutzeranleitung.md#thema-vorschlagen
 
 ### Aufgabe melden oder übernehmen
 
-Offene Aufgaben findest du im [Aufgaben-Board](https://github.com/users/rfluethi/projects/11).
+Offene Aufgaben findest du im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1).
 
 Neue Aufgabe erfassen → [Aufgaben-Issue erstellen](../../issues/new?template=aufgabe.yml)
 

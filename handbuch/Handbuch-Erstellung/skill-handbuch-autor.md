@@ -115,11 +115,11 @@ Der Skill schreibt **keine** Hersteller-Dokumentation ab, er verlinkt sie. Er er
 
 ### Herunterladen
 
-**Download: [handbuch-autor.zip](https://github.com/rfluethi/learn-wp-dach-team/releases/download/handbuch-autor/handbuch-autor.zip)**
+**Download: [handbuch-autor.zip](https://github.com/learn-wp-dach/learn-wp-dach-team/releases/download/handbuch-autor/handbuch-autor.zip)**
 
 Dieser Link ist die einzige Stelle im Handbuch, an der die Download-Adresse steht. Ändert sich der Ablageort des ZIP, muss nur dieser eine Link angepasst werden.
 
-Das ZIP enthält die `SKILL.md` und den Ordner `references/` mit allen zwölf Referenzdateien. Die Quelldateien liegen im Repository unter [skills/handbuch-autor/](https://github.com/rfluethi/learn-wp-dach-team/tree/main/skills/handbuch-autor/); aus diesem Ordner wird das ZIP gebaut.
+Das ZIP enthält die `SKILL.md` und den Ordner `references/` mit allen zwölf Referenzdateien. Die Quelldateien liegen im Repository unter [skills/handbuch-autor/](https://github.com/learn-wp-dach/learn-wp-dach-team/tree/main/skills/handbuch-autor/); aus diesem Ordner wird das ZIP gebaut.
 
 ### In den KI-Assistenten einbinden
 

@@ -187,7 +187,7 @@ Tabellen verwenden, wenn Inhalte vergleichend oder mehrdimensional sind. Bei ein
 
 ### Transport-Block
 
-Jeder Markdown-Entwurf endet mit dem **Transport-Block**: Er trägt Seitentyp, verantwortliche Rolle, Thema, Zielgruppe, Eltern-Seite, Reihenfolge, Textauszug und Aktualitäts-Daten. Beim Erfassen wird er in Felder übertragen und aus dem Inhalt gelöscht. Das exakte Muster steht in [markdown-konventionen.md](https://github.com/rfluethi/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/markdown-konventionen.md) des Skills.
+Jeder Markdown-Entwurf endet mit dem **Transport-Block**: Er trägt Seitentyp, verantwortliche Rolle, Thema, Zielgruppe, Eltern-Seite, Reihenfolge, Textauszug und Aktualitäts-Daten. Beim Erfassen wird er in Felder übertragen und aus dem Inhalt gelöscht. Das exakte Muster steht in [markdown-konventionen.md](https://github.com/learn-wp-dach/learn-wp-dach-team/blob/main/skills/handbuch-autor/references/markdown-konventionen.md) des Skills.
 
 <details>
 <summary>Hinweis: Häufige Formfehler und wie du sie vermeidest</summary>

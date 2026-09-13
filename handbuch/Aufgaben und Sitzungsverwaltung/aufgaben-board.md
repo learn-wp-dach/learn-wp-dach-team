@@ -17,7 +17,7 @@ Alle Teammitglieder. Jedes Mitglied kann eigene Aufgaben einsehen, Themen einrei
 
 ## Zugang
 
-Das Board ist öffentlich lesbar unter [Learn WP DACH – Aufgaben](https://github.com/users/rfluethi/projects/11). Schreibrechte (Karten verschieben, Labels setzen) erhalten eingeladene Teammitglieder als Collaborators; siehe [Neu im Team](neu-im-team.md).
+Das Board ist öffentlich lesbar unter [Learn WP DACH – Aufgaben](https://github.com/orgs/learn-wp-dach/projects/1). Schreibrechte (Karten verschieben, Labels setzen) erhalten eingeladene Teammitglieder als Collaborators; siehe [Neu im Team](neu-im-team.md).
 
 ## Spalten
 

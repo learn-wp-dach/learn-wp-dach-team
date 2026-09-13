@@ -17,16 +17,16 @@ jobs:
         run: |
           set -e
 
-          # Projekt-ID ermitteln (Projekt Nr. 11 von rfluethi)
+          # Projekt-ID ermitteln (Projekt Nr. 1 der Organisation learn-wp-dach)
           PROJECT_ID=$(gh api graphql -f query='
             query {
-              user(login: "rfluethi") {
-                projectV2(number: 11) {
+              organization(login: "learn-wp-dach") {
+                projectV2(number: 1) {
                   id
                 }
               }
             }
-          ' --jq '.data.user.projectV2.id')
+          ' --jq '.data.organization.projectV2.id')
 
           if [ -z "$PROJECT_ID" ] || [ "$PROJECT_ID" = "null" ]; then
             echo "::error::Projekt nicht gefunden. Projektnummer oder Benutzername prüfen."

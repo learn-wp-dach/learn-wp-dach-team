@@ -1,5 +1,7 @@
 # Repository-Umzug: learn-wp-dach-team – Informationen für den Administrator
 
+> **Archiv.** Dieses Dokument beschreibt den Zustand des Repositories vor dem Umzug und die damals geplanten Optionen. Der Umzug ist im September 2026 per Transfer in die Organisation `learn-wp-dach` erfolgt, siehe [Setup-Anleitung](setup.md). Alle Angaben unten (Adressen, Projektnummer, Workflows) sind historisch und werden nicht mehr gepflegt.
+
 Erstellt: 2026-04-24
 
 ---

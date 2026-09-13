@@ -42,7 +42,7 @@ Moderation und Protokollführung werden in jeder Sitzung für die nächste besti
 <details>
 <summary>Wo finde ich die Protokolle vergangener Sitzungen?</summary>
 
-Auf der [Repository-Startseite](https://github.com/rfluethi/learn-wp-dach-team) im automatisch gepflegten Protokoll-Index, im Board in der Ansicht *Sitzungen* oder per Issue-Suche `label:sitzung is:closed`. Details: [Aufgaben-Board](aufgaben-board.md).
+Auf der [Repository-Startseite](https://github.com/learn-wp-dach/learn-wp-dach-team) im automatisch gepflegten Protokoll-Index, im Board in der Ansicht *Sitzungen* oder per Issue-Suche `label:sitzung is:closed`. Details: [Aufgaben-Board](aufgaben-board.md).
 
 </details>
 

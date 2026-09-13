@@ -207,7 +207,7 @@ def build(issues: list[dict], repo: str, today: date | None = None) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, help="Pfad zur Issues-JSON (gh issue list ...)")
-    parser.add_argument("--repo", required=True, help="owner/name, z. B. rfluethi/learn-wp-dach-team")
+    parser.add_argument("--repo", required=True, help="owner/name, z. B. learn-wp-dach/learn-wp-dach-team")
     parser.add_argument("--output", required=True, help="Pfad zur Ausgabe-JSON")
     args = parser.parse_args()
 

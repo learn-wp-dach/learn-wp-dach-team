@@ -1,78 +1,40 @@
-# Learn WP DACH – Team Repository
+# Learn WP DACH Team
 
-Dieses Repository enthält die Sitzungsprotokolle, Themen und Aufgaben des **Learn WP DACH Teams**. Das monatliche Meeting findet jeweils am letzten Dienstag des Monats um 20:00 Uhr statt.
+Dieses Repository ist die Arbeitsgrundlage des **Learn WP DACH Teams**: Sitzungen, Themen und Aufgaben werden hier als Issues geführt und im Projekt-Board geplant. Das Team trifft sich jeweils am letzten Dienstag des Monats um 20:00 Uhr.
 
 ## Sitzungen
 
+Nächste Termine, Zugang und alle Protokolle: **[Unsere Treffen auf learn-wp-dach.org](https://learn-wp-dach.org/termine/monatliche-treffen/)**
 
-<!-- BEGIN SITZUNGEN -->
-<!-- Der Block zwischen den Markern wird automatisch von der GitHub Action
-     `sitzungen-json.yml` aus den Issues gepflegt. Nicht manuell editieren. -->
+Die Seite bezieht ihre Daten automatisch aus diesem Repository. Du brauchst kein GitHub-Konto, um sie zu lesen oder an einer Sitzung teilzunehmen.
 
-### Anstehende Sitzungen
+## Mitarbeiten
 
-| Veranstaltung | Datum | Uhrzeit |
-| --- | --- | --- |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/83) | 29.09.2026 | 20:00 |
-
-### Sitzungen in Bearbeitung
-
-| Veranstaltung | Datum | Uhrzeit |
-| --- | --- | --- |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/77) | 24.08.2026 | 20:00 |
-
-### Protokolle
-
-#### 2026
-
-| Veranstaltung | Sitzung | Protokoll |
-| --- | --- | --- |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/68) | 29.07.2026 | 30.07.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/59) | 30.06.2026 | 01.07.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/55) | 26.05.2026 | 30.07.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/7) | 28.04.2026 | 31.07.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/35) | 13.04.2026 | 16.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/5) | 31.03.2026 | 03.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/14) | 24.02.2026 | 01.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/13) | 27.01.2026 | 01.04.2026 |
-
-#### 2025
-
-| Veranstaltung | Sitzung | Protokoll |
-| --- | --- | --- |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/12) | 16.12.2025 | 01.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/11) | 26.11.2025 | 01.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/10) | 28.10.2025 | 01.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/9) | 23.09.2025 | 01.04.2026 |
-| [Sitzung](https://github.com/rfluethi/learn-wp-dach-team/issues/8) | 26.08.2025 | 01.04.2026 |
-
-_Stand: 13.09.2026, 03:29 UTC — automatisch generiert aus den Issues._
-
-<!-- END SITZUNGEN -->
-
-## Links
+Für Teammitglieder: Hier werden Sitzungen vorbereitet, Themen gesammelt und Aufgaben verteilt.
 
 | | |
 | --- | --- |
-| [Aufgaben-Board](https://github.com/users/rfluethi/projects/11) | Kanban Board mit allen offenen Aufgaben |
-| [Alle Issues](https://github.com/rfluethi/learn-wp-dach-team/issues) | Sitzungen, Themen und Aufgaben |
+| [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) | Kanban-Board mit allen Themen und Aufgaben |
+| [Alle Issues](https://github.com/learn-wp-dach/learn-wp-dach-team/issues) | Sitzungen, Themen und Aufgaben |
+| [Sitzungs-Issues](https://github.com/learn-wp-dach/learn-wp-dach-team/issues?q=is%3Aissue+label%3Asitzung+sort%3Acreated-desc) | Vorbereitung und Protokoll jeder Sitzung, neueste zuerst |
+| [Thema vorschlagen](https://github.com/learn-wp-dach/learn-wp-dach-team/issues/new?template=thema.yml) | Vorlage für ein Diskussionsthema |
+| [Aufgabe erfassen](https://github.com/learn-wp-dach/learn-wp-dach-team/issues/new?template=aufgabe.yml) | Vorlage für eine Aufgabe |
+
+Wie das zusammenspielt, erklärt das Handbuch [Aufgaben und Sitzungsverwaltung](handbuch/Aufgaben%20und%20Sitzungsverwaltung/README.md). Der Einstieg für neue Mitglieder ist [Neu im Team](handbuch/Aufgaben%20und%20Sitzungsverwaltung/neu-im-team.md).
 
 ## Dokumentation
 
-| Dokument | Beschreibung |
+| Dokument | Für wen |
 | --- | --- |
-| [Konzept](docs/konzept.md) | Übersicht über das System |
-| [Benutzeranleitung](docs/benutzeranleitung.md) | Schritt-für-Schritt für alle Teammitglieder |
-| [Setup-Anleitung](docs/setup.md) | Technische Einrichtung (Admin) |
-| [Repo-Umzug-Infos für Admin](docs/repo-umzug-infos-fuer-admin.md) | Beschreibung des Repos und Checkliste für den Repository-Umzug |
+| [Handbuch](handbuch/) | alle Teammitglieder |
+| [Setup-Anleitung](docs/setup.md) | Administration: Einrichtung, Workflows, Token |
 
 ## Mitmachen
 
 - [Wie du dich beteiligen kannst](CONTRIBUTING.md)
 - [Verhaltenskodex](CODE_OF_CONDUCT.md)
+- [Sicherheitshinweise](SECURITY.md)
 
 ## Lizenz
 
 Dieses Repository steht unter der [CC BY 4.0 Lizenz](LICENSE). Inhalte dürfen geteilt und bearbeitet werden, sofern die Urheberschaft angegeben wird.
-
-Zuletzt aktualisiert: 2026-07-31
