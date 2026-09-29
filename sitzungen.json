@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-29T19:28:55Z",
+  "generated_at": "2026-09-29T19:51:48Z",
   "source_repo": "rfluethi/learn-wp-dach-team",
   "upcoming_sessions": [
     {
@@ -8,6 +8,12 @@
       "session_date": "2026-09-29",
       "session_time": "20:00",
       "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/83"
+    },
+    {
+      "title": "Sitzung",
+      "session_date": "2026-10-28",
+      "session_time": "20:00",
+      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/86"
     }
   ],
   "in_progress_sessions": [
