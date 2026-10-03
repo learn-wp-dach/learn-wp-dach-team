@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T03:39:55Z",
-  "source_repo": "rfluethi/learn-wp-dach-team",
+  "generated_at": "2026-10-03T11:21:17Z",
+  "source_repo": "learn-wp-dach/learn-wp-dach-team",
   "upcoming_sessions": [
     {
       "title": "Sitzung",
       "session_date": "2026-10-28",
       "session_time": "20:00",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/86"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/86"
     }
   ],
   "in_progress_sessions": [
@@ -15,7 +15,7 @@
       "title": "Sitzung",
       "session_date": "2026-09-29",
       "session_time": "20:00",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/83"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/83"
     }
   ],
   "past_sessions": [
@@ -23,85 +23,85 @@
       "title": "Sitzung",
       "session_date": "2026-08-24",
       "minutes_date": "2026-09-30",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/77"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/77"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-07-29",
       "minutes_date": "2026-07-30",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/68"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/68"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-06-30",
       "minutes_date": "2026-07-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/59"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/59"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-05-26",
       "minutes_date": "2026-07-30",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/55"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/55"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-04-28",
       "minutes_date": "2026-07-31",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/7"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/7"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-04-13",
       "minutes_date": "2026-04-16",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/35"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/35"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-03-31",
       "minutes_date": "2026-04-03",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/5"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/5"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-02-24",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/14"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/14"
     },
     {
       "title": "Sitzung",
       "session_date": "2026-01-27",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/13"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/13"
     },
     {
       "title": "Sitzung",
       "session_date": "2025-12-16",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/12"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/12"
     },
     {
       "title": "Sitzung",
       "session_date": "2025-11-26",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/11"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/11"
     },
     {
       "title": "Sitzung",
       "session_date": "2025-10-28",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/10"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/10"
     },
     {
       "title": "Sitzung",
       "session_date": "2025-09-23",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/9"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/9"
     },
     {
       "title": "Sitzung",
       "session_date": "2025-08-26",
       "minutes_date": "2026-04-01",
-      "url": "https://github.com/rfluethi/learn-wp-dach-team/issues/8"
+      "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/8"
     }
   ]
 }
