@@ -94,6 +94,8 @@ gh label create "organisation"    --repo "$REPO" --color "e99695" --description 
    - *Item added to project* → Status: **Offen**
    - *Item closed* → Status: **Erledigt**
    - *Item reopened* → Status: **Offen**
+
+   GitHub schlägt bei *Auto-add* den Filter `is:issue,pr is:open` vor. Das `,pr` entfernen, sonst landen auch Pull Requests im Board. Im Plan GitHub Free erlaubt jedes Projekt nur **eine** Auto-add-Regel und damit nur ein Repository. Regel bei uns: ein Board pro Repository. Das Aufgaben-Board bleibt dem Team-Repository vorbehalten, ein neues Repository (etwa für das Handbuch) bekommt ein eigenes Board.
 6. Feld **Estimate** erstellen: Project → **`...`** → **Settings** → **Custom fields** → **Add field**
    - Typ: **Number**
    - Name: `Estimate`
@@ -125,13 +127,13 @@ Das normale `GITHUB_TOKEN` hat keinen Zugriff auf Projekte der Organisation. Des
 
 1. GitHub.com → Avatar → **Settings** → **Developer settings** → **Personal access tokens** → **Fine-grained tokens**
 2. **Generate new token**
-3. Token name: z.B. `learn-wp-dach-team board`
+3. Token name: `learn-wp-dach thema-board` (aktueller Token, ausgestellt am 3. Oktober 2026 auf `rfluethi`, gültig bis 4. Oktober 2027)
 4. **Resource owner:** `learn-wp-dach` (die Organisation, nicht das eigene Konto)
-5. **Expiration:** 366 Tage. Das Ablaufdatum in ein Issue mit Label `aufgabe` eintragen, Datum im Board auf zwei Wochen davor, damit die Erneuerung rechtzeitig auf dem Board erscheint.
+5. **Expiration:** 366 Tage. Für das Ablaufdatum einen Kalendereintrag bei beiden Owners zwei Wochen vorher anlegen. Bewusst kein Issue: Es würde im Aufgaben-Board erscheinen und in jeder Sitzung auftauchen.
 6. **Repository access:** Only select repositories → `learn-wp-dach-team`
-7. Berechtigungen, genau zwei:
-   - **Organization permissions** → **Projects:** Read and write
-   - **Repository permissions** → **Issues:** Read-only
+7. Berechtigungen, genau zwei. Im Kasten **Permissions** gibt es die Reiter **Repositories** und **Organizations**; «Add permissions» fügt nur für den gerade aktiven Reiter hinzu:
+   - Reiter **Organizations** → **Projects:** Read and write
+   - Reiter **Repositories** → **Issues:** Read-only (Metadata Read-only setzt GitHub automatisch)
 8. **Generate token** → Token kopieren
 
 Läuft der Token ab, landen neue Themen nicht mehr automatisch in der Spalte Themen und müssen von Hand ins Board gezogen werden. Die Sitzungsdaten für die Website sind nicht betroffen, dieser Workflow läuft über den eingebauten Token.
@@ -145,6 +147,17 @@ Läuft der Token ab, landen neue Themen nicht mehr automatisch in der Spalte The
 5. **Add secret**
 
 > Den Token nie in den Code oder in einen Chat einfügen – immer nur als Secret speichern.
+
+Per GitHub CLI, ohne dass der Token in der Terminal-Historie landet (zsh):
+
+```bash
+read -s "T?Token einfügen und Enter: "; echo
+T="${T//[^A-Za-z0-9_]/}"          # unsichtbare Zeichen aus dem Browser entfernen
+echo "${T:0:11}… Länge ${#T}"     # Erwartet: github_pat_… Länge 93
+GH_TOKEN=$T gh api graphql -f query='query{organization(login:"learn-wp-dach"){projectV2(number:1){title}}}'
+printf %s "$T" | gh secret set GH_PAT --repo learn-wp-dach/learn-wp-dach-team
+unset T
+```
 
 ### 6c: Workflow-Datei einfügen
 
@@ -199,16 +212,17 @@ Owner der Organisation haben automatisch Admin auf beiden Ebenen. Base permissio
 
 ## Schritt 10: Branch-Protection einrichten
 
-Seit kein Workflow mehr auf `main` committet, kann der Branch ohne Ausnahmen geschützt werden.
+Seit kein Workflow mehr auf `main` committet, kann der Branch ohne Ausnahmen geschützt werden. Eingerichtet am 3. Oktober 2026 als Ruleset «Schutz main und archiv-main».
 
-1. Repository → **Settings** → **Rules** → **Rulesets** → **New branch ruleset**
-2. Regelname: `main protection`
-3. Target: `main`
-4. Regeln aktivieren:
-   - **Require a pull request before merging**
-   - **Required approvals:** 1 (sonst könnten Mitglieder mit Write ihre eigenen Pull Requests selbst mergen)
-5. **Bypass list:** Organization admins, damit Owner im Notfall direkt pushen können
-6. **Save changes**
+| Einstellung | Wert |
+| --- | --- |
+| Ziel | Standard-Branch (`main`) und `archiv-main` |
+| Branch löschen | verboten |
+| Historie überschreiben (Force-Push) | verboten |
+| Änderungen | nur per Pull Request mit **1 Freigabe** (sonst könnten Mitglieder mit Write ihre eigenen Pull Requests selbst mergen) |
+| Ausnahme | Organization admins (Owner) dürfen im Notfall direkt pushen |
+
+Ansehen und ändern: Repository → **Settings** → **Rules** → **Rulesets**. Kontrolle per CLI: `gh api repos/learn-wp-dach/learn-wp-dach-team/rules/branches/main`. Der `data`-Branch ist bewusst nicht geschützt, dorthin schreibt der Website-Workflow.
 
 Issues und Board sind davon nicht betroffen, nur Änderungen an Dateien laufen über Pull Requests.
 
@@ -236,12 +250,13 @@ Issues und Board sind davon nicht betroffen, nur Änderungen an Dateien laufen �
 
 ### PAT erneuern
 
-Der Token läuft nach 366 Tagen ab, das Erinnerungs-Issue im Board zeigt den Termin.
+Der Token läuft nach 366 Tagen ab, der aktuelle am **4. Oktober 2027**. Die Erinnerung kommt über einen Kalendereintrag beider Owner (20. September 2027), zusätzlich schickt GitHub dem Besitzer des Tokens vor Ablauf eine E-Mail.
 
 1. GitHub.com → Avatar → **Settings** → **Developer settings** → **Personal access tokens** → **Fine-grained tokens**
 2. Bestehenden Token wählen → **Regenerate token** → neue Laufzeit wählen
 3. Token kopieren → Repository → **Settings** → **Secrets and variables** → **Actions** → `GH_PAT` → **Update secret**
-4. Erinnerungs-Issue: neues Ablaufdatum eintragen, Datum im Board auf zwei Wochen davor
+4. Kalendereintrag für beide Owner auf das neue Ablaufdatum minus zwei Wochen verschieben
+5. Testen: Actions → **Thema ins Board einordnen** läuft beim nächsten Themen-Issue grün
 
 Fällt der Owner aus, dem der Token gehört, läuft der Token bis zum Ablauf weiter. Der andere Owner kann ihn unter Organisation → Settings → Personal access tokens widerrufen und nach Schritt 6a einen eigenen anlegen.
 
@@ -252,3 +267,19 @@ Fällt der Owner aus, dem der Token gehört, läuft der Token bis zum Ablauf wei
 Der Umzug in die Organisation `learn-wp-dach` ist am 3. Oktober 2026 per Transfer erfolgt. Alle Issues, Kommentare, Labels und Zuweisungen sind erhalten geblieben, die alten Adressen unter `rfluethi/learn-wp-dach-team` leiten weiter.
 
 **Regel:** Unter dem Konto `rfluethi` darf nie wieder ein Repository namens `learn-wp-dach-team` angelegt werden. Sobald der alte Name belegt ist, enden alle Weiterleitungen auf einen Schlag: alte Links in Slack, in Protokollen, in Lesezeichen und im Plugin.
+
+Das alte Board `users/rfluethi/projects/11` ist geschlossen, aber nicht gelöscht. Ältere Issues verlinken darauf, und auf Projekte greift keine Weiterleitung. **Nie löschen.**
+
+Das WordPress-Plugin Training Meeting Tracker (produktiv und staging) liest seit dem Umzug `https://raw.githubusercontent.com/learn-wp-dach/learn-wp-dach-team/data/sitzungen.json`. Das Plugin speichert Abrufe 12 Stunden zwischen, nach einer Änderung der Quelle im Plugin auf «Jetzt aktualisieren» klicken.
+
+### Neue Historie auf main
+
+Ziel: In der Kontributoren-Anzeige erscheinen nur Menschen. Der Transfer hatte die alte Historie mit über 350 Bot-Commits übernommen, eine frühere Bereinigung per Force-Push (April 2026) hatte nicht gewirkt. Deshalb hat `main` seit dem 3. Oktober 2026 einen neuen Anfangscommit (`41814c5`) mit identischem Inhalt. Die vollständige alte Historie liegt im Branch `archiv-main`.
+
+Vorgehen: `git checkout --orphan neu-main`, ein Commit, Push; dann `main` in `archiv-main` umbenennen, `neu-main` zum Standard-Branch machen und in `main` umbenennen. Der Wechsel des Standard-Branchs hat die Kontributoren-Anzeige sofort neu berechnet. GitHub zählt nur Commits auf dem Standard-Branch, `archiv-main` und `data` zählen nicht.
+
+**Regeln:**
+
+- `archiv-main` **nie** in `main` mergen und den Knopf «Compare & pull request» für `archiv-main` nie benutzen. Das brächte die alte Historie samt Bot-Commits zurück.
+- Kein Workflow committet auf `main`. Automatische Commits gehören auf `data`.
+- Commits auf `main` ohne KI-Signaturen (keine `Co-Authored-By`-Zeilen von Werkzeugen).
