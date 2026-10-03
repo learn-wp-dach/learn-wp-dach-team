@@ -28,9 +28,10 @@ Ein Themen-Vorschlag ist ein GitHub-Issue: ein Eintrag, den alle lesen und komme
    * **Beschreibung:** Worum geht es, warum ist es relevant?
    * **Gewünschtes Ergebnis:** Was soll am Ende feststehen?
     ![Das Formular der Vorlage Thema mit den Feldern Vorgeschlagen von, Art des Themas, Beschreibung und Gewünschtes Ergebnis.](_attachments/thema-formular.webp)
-1. Erstelle das Issue.
-2. Öffne das Issue im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) und fülle das Feld **Estimate** mit der geschätzten Anzahl Minuten aus.
+4. Erstelle das Issue.
+5. Öffne das Issue im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) und fülle das Feld **Estimate** mit der geschätzten Anzahl Minuten aus.
      ![Ein Themen-Issue im Aufgaben-Board, rechts das Seitenpanel mit dem Feld Estimate.](_attachments/estimate-feld.webp)
+
 ## Ergebnis
 
 Dein Thema liegt automatisch in der Spalte **Themen** des Aufgaben-Boards; dafür sorgt eine Automatisierung. Die Moderation sieht es in der Ansicht *Sitzungsvorbereitung* und verlinkt es im Sitzungs-Issue unter **Diskussionsthemen**.
@@ -64,6 +65,6 @@ Die Schätzung in Minuten gibt der Moderation bei der Sitzungsplanung eine Über
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 10
 * Textauszug: So bringst du ein Thema in die nächste Sitzung ein.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 180

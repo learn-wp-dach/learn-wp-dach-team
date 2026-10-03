@@ -21,7 +21,7 @@ Moderation und Protokollführung sind keine festen Rollen: In jeder Sitzung wird
 ```mermaid
 flowchart TD
     A["Sitzungsende: Team bestimmt Moderation<br>und Protokollführung der nächsten Sitzung"] --> B["Moderation der laufenden Sitzung<br>erstellt das nächste Sitzungs-Issue"]
-    B --> C["Automatisierung: neuer Termin erscheint<br>auf Startseite und Webseite"]
+    B --> C["Automatisierung: neuer Termin<br>erscheint auf der Webseite"]
     B --> D["Neue Moderation bereitet vor:<br>Themen verlinken, Board-Status: In Arbeit"]
     D --> E["Sitzung: Protokollführung erfasst<br>Beschlüsse und Aufgaben"]
     E --> F["Protokoll-Review<br>(Board-Status: Blockiert, Timeout 3 Werktage)"]
@@ -41,7 +41,7 @@ flowchart TD
 <details>
 <summary>Hintergrund: Warum das Issue sofort am Sitzungsende entsteht</summary>
 
-Eine Automatisierung liest alle Sitzungs-Issues und erzeugt daraus die Tabelle „Anstehende Sitzungen" auf der Repository-Startseite sowie eine Datendatei, die unsere Webseite direkt einbindet. Erst wenn das Issue existiert, ist der nächste Termin dort sichtbar. Darum gehört das Anlegen ans Ende der Sitzung, nicht irgendwann später. Das Label `sitzung` setzt die Vorlage automatisch.
+Eine Automatisierung liest alle Sitzungs-Issues und erzeugt daraus eine Datendatei, die unsere Webseite unter [Monatliche Treffen](https://learn-wp-dach.org/termine/monatliche-treffen/) einbindet. Erst wenn das Issue existiert, ist der nächste Termin dort sichtbar. Darum gehört das Anlegen ans Ende der Sitzung, nicht irgendwann später. Das Label `sitzung` setzt die Vorlage automatisch.
 
 </details>
 
@@ -93,7 +93,7 @@ Der Board-Status (Spalte im Aufgaben-Board) ist unabhängig vom GitHub-Issue-Sta
 ### 7. Protokoll abschließen *(Protokollführung, nach Bestätigung)*
 
 1. Sobald mindestens ein OK-Kommentar eingegangen ist, schließt die Protokollführung das Issue.
-2. Das geschlossene Issue ist das offizielle Protokoll. Es erscheint automatisch im Protokoll-Index auf der Repository-Startseite und bleibt im Board in der Ansicht *Sitzungen* auffindbar.
+2. Das geschlossene Issue ist das offizielle Protokoll. Es erscheint automatisch in der Protokollübersicht auf unserer Webseite und bleibt im Board in der Ansicht *Sitzungen* auffindbar.
 
 <details>
 <summary>Hintergrund: Vier-Augen-Prinzip und Timeout</summary>
@@ -104,7 +104,7 @@ Das OK-Kommentar stellt sicher, dass mindestens ein weiteres Teammitglied das Pr
 
 ## Ergebnis
 
-Das Sitzungs-Issue ist geschlossen, alle Aufgaben sind als eigene Issues erfasst, und das Protokoll ist auf der Repository-Startseite und im Board auffindbar. Das nächste Sitzungs-Issue existiert bereits seit dem Sitzungsende, mit Termin und Zuständigen; Startseite und Webseite zeigen den neuen Termin automatisch an.
+Das Sitzungs-Issue ist geschlossen, alle Aufgaben sind als eigene Issues erfasst, und das Protokoll ist auf der Webseite und im Board auffindbar. Das nächste Sitzungs-Issue existiert bereits seit dem Sitzungsende, mit Termin und Zuständigen; die Webseite zeigt den neuen Termin automatisch an.
 
 ## Verwandte Seiten
 
@@ -129,6 +129,6 @@ Das Sitzungs-Issue ist geschlossen, alle Aufgaben sind als eigene Issues erfasst
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 30
 * Textauszug: Beschreibt den Prozess von der Sitzungsvorbereitung bis zum geschlossenen Beschlussprotokoll.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 180

@@ -42,7 +42,7 @@ Moderation und Protokollführung werden in jeder Sitzung für die nächste besti
 <details>
 <summary>Wo finde ich die Protokolle vergangener Sitzungen?</summary>
 
-Auf der [Repository-Startseite](https://github.com/learn-wp-dach/learn-wp-dach-team) im automatisch gepflegten Protokoll-Index, im Board in der Ansicht *Sitzungen* oder per Issue-Suche `label:sitzung is:closed`. Details: [Aufgaben-Board](aufgaben-board.md).
+Auf unserer Webseite unter [Monatliche Treffen](https://learn-wp-dach.org/termine/monatliche-treffen/), im Board in der Ansicht *Sitzungen* oder per Issue-Suche `label:sitzung is:closed`. Details: [Aufgaben-Board](aufgaben-board.md).
 
 </details>
 
@@ -56,7 +56,7 @@ Im Aufgaben-Board über die Ansicht *My items* oder mit dem Filter `assignee:@me
 <details>
 <summary>Wer kann Issues erstellen und bearbeiten?</summary>
 
-Issues erstellen kann jede Person mit GitHub-Account; Schreibrechte (Labels setzen, Karten verschieben) haben eingeladene Teammitglieder als Collaborators. Details: [Neu im Team](neu-im-team.md).
+Issues erstellen kann jede Person mit GitHub-Account; Schreibrechte (Labels setzen, Karten verschieben) haben Mitglieder unserer GitHub-Organisation. Details: [Neu im Team](neu-im-team.md).
 
 </details>
 
@@ -78,6 +78,6 @@ Issues erstellen kann jede Person mit GitHub-Account; Schreibrechte (Labels setz
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 60
 * Textauszug: Antworten auf wiederkehrende Fragen rund um Sitzungen, Themen, Aufgaben und Protokolle.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 180

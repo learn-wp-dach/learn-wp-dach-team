@@ -19,7 +19,7 @@ Aufgaben aus der Sitzung werden als eigene Issues im Aufgaben-Board verwaltet. S
 * **Nachvollziehbarkeit.** GitHub protokolliert jede Änderung. Wer wann was geschrieben hat, ist transparent.
 * **Verknüpfung.** Aufgaben-Issues lassen sich direkt mit dem Sitzungs-Issue ihrer Herkunft verknüpfen.
 * **Niedrige Hürde.** GitHub-Accounts sind im Team ohnehin verbreitet. Ein zusätzliches Tool ist nicht nötig.
-* **Automatisierung.** Wiederkehrende Handgriffe übernimmt das System: Themen landen von selbst in der richtigen Board-Spalte, die Repository-Startseite pflegt Sitzungstabellen und Protokoll-Index automatisch.
+* **Automatisierung.** Wiederkehrende Handgriffe übernimmt das System: Themen landen von selbst in der richtigen Board-Spalte, und die Übersicht der Termine und Protokolle auf unserer Webseite entsteht automatisch aus den Sitzungs-Issues.
 
 ## Was bedeutet das für unsere Arbeit
 
@@ -82,6 +82,6 @@ Bevor ein Sitzungs-Issue geschlossen wird, muss mindestens ein weiteres Teammitg
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 70
 * Textauszug: Diese Seite erklärt, warum das Learn WP DACH Team Sitzungsplanung, Beschlussprotokolle und Aufgaben über GitHub Issues und ein Kanban Board verwaltet, und welche Grundkonzepte dabei gelten.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 365

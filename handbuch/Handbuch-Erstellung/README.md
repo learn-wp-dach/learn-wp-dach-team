@@ -28,13 +28,13 @@ Ein Handbuch bedient zwei Gruppen mit gegensätzlichen Bedürfnissen: Neue wolle
 
 ## Abgrenzung zur Handbuch-Applikation
 
-Das Regelwerk und die [Handbuch-Applikation](../Handbuch-Applikation/README.md) sind bewusst zwei getrennte Bereiche, mit dieser Grenzregel:
+Das Regelwerk und die Dokumentation der Handbuch-Applikation sind bewusst zwei getrennte Bereiche, mit dieser Grenzregel:
 
 * **Ins Regelwerk** gehört alles, was unabhängig vom Werkzeug gilt: was eine gute Seite ist, Seitentypen, Sprache, Markdown-Konventionen, der Prozess bis zum fertigen Entwurf.
 * **In die Handbuch-Applikation** gehört alles, was Bedienung von WordPress ist: Import, Felder setzen, Wartung, Menü-Verhalten.
 * **Faustregel:** Würde der Satz auch bei einem anderen System stimmen, gehört er ins Regelwerk.
 
-Begründung der Trennung: Die App-Dokumentation ändert sich mit jeder Version, das Regelwerk selten; getrennte Bereiche erlauben eigene Prüfintervalle, verantwortliche Rollen und Zugriffsgruppen. Berührungspunkte (z.B. der Transport-Block: Definition hier, Bedienung dort) werden verlinkt, nicht doppelt beschrieben. Die Trennung wird bei der Neuschreibung der Handbuch-Applikation überprüft.
+Begründung der Trennung: Die App-Dokumentation ändert sich mit jeder Version, das Regelwerk selten; getrennte Bereiche erlauben eigene Prüfintervalle, verantwortliche Rollen und Zugriffsgruppen. Berührungspunkte (z.B. der Transport-Block: Definition hier, Bedienung dort) werden verlinkt, nicht doppelt beschrieben. Der Bereich Handbuch-Applikation wird derzeit neu geschrieben und ist darum noch nicht verlinkt; bei der Neuschreibung wird auch die Trennung überprüft.
 
 ## Seiten in diesem Bereich
 
@@ -112,6 +112,6 @@ Die Links führen zu informierenden Quellen (Wikipedia, frei lesbare Norm-Auszü
 * Eltern-Seite: oberste Ebene
 * Reihenfolge: 30
 * Textauszug: Dieser Bereich enthält das Regelwerk für unser Team-Handbuch: die Festlegungen, wie wir Inhalte erstellen, prüfen und pflegen.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-05-03
 * Prüfintervall: 365

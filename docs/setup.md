@@ -2,7 +2,7 @@
 
 Diese Anleitung beschreibt die einmalige Einrichtung des Repositories für neue Instanzen oder nach einem Repository-Transfer.
 
-> **Stand September 2026:** Das Repository gehört der Organisation [learn-wp-dach](https://github.com/learn-wp-dach), das Kanban-Board ist das Org-Projekt Nr. 1 unter `https://github.com/orgs/learn-wp-dach/projects/1`. Owner der Organisation sind Rico (`rfluethi`) und Andy (`Bigod`). Die Sitzungen werden nicht mehr in der README geführt, sondern auf [learn-wp-dach.org](https://learn-wp-dach.org/termine/monatliche-treffen/) angezeigt.
+> **Stand Oktober 2026:** Das Repository gehört der Organisation [learn-wp-dach](https://github.com/learn-wp-dach), das Kanban-Board ist das Org-Projekt Nr. 1 unter `https://github.com/orgs/learn-wp-dach/projects/1`. Owner der Organisation sind Rico (`rfluethi`) und Andy (`Bigod`). Die Sitzungen werden nicht mehr in der README geführt, sondern auf [learn-wp-dach.org](https://learn-wp-dach.org/termine/monatliche-treffen/) angezeigt.
 
 ---
 
@@ -249,6 +249,6 @@ Fällt der Owner aus, dem der Token gehört, läuft der Token bis zum Ablauf wei
 
 ## Repository-Umzug
 
-Der Umzug in die Organisation `learn-wp-dach` ist im September 2026 per Transfer erfolgt. Alle Issues, Kommentare, Labels und Zuweisungen sind erhalten geblieben, die alten Adressen unter `rfluethi/learn-wp-dach-team` leiten weiter.
+Der Umzug in die Organisation `learn-wp-dach` ist am 3. Oktober 2026 per Transfer erfolgt. Alle Issues, Kommentare, Labels und Zuweisungen sind erhalten geblieben, die alten Adressen unter `rfluethi/learn-wp-dach-team` leiten weiter.
 
 **Regel:** Unter dem Konto `rfluethi` darf nie wieder ein Repository namens `learn-wp-dach-team` angelegt werden. Sobald der alte Name belegt ist, enden alle Weiterleitungen auf einen Schlag: alte Links in Slack, in Protokollen, in Lesezeichen und im Plugin.

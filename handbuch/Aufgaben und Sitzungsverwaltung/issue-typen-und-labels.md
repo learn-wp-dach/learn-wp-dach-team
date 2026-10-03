@@ -2,7 +2,7 @@
 
 ## Kurzbeschreibung
 
-Diese Seite listet die Issue-Typen und Labels, mit denen wir Sitzungen, Themen und Aufgaben im Repository kennzeichnen. Sie ist das Nachschlagewerk für alle Teammitglieder (Stand Juli 2026, vor der geplanten Label-Bereinigung).
+Diese Seite listet die Issue-Typen und Labels, mit denen wir Sitzungen, Themen und Aufgaben im Repository kennzeichnen. Sie ist das Nachschlagewerk für alle Teammitglieder (Stand September 2026, vor der geplanten Label-Bereinigung).
 
 <details>
 <summary>Hintergrund: Wozu Labels dienen</summary>
@@ -50,7 +50,7 @@ Die Issue-Vorlagen (Sitzung, Thema, Aufgabe) setzen das jeweilige Typ-Label auto
 <details>
 <summary>Hinweis: Label-Bereinigung steht an</summary>
 
-Der Label-Bestand ist historisch gewachsen und wird bereinigt. Im Repository existieren weitere Labels, die hier bewusst nicht als Konvention geführt werden: `documentation` und `enhancement` (GitHub-Standardlabels ohne definierte Verwendung bei uns) sowie `blockiert` und `überprüfung` (sie doppeln die gleichnamigen Board-Spalten). Ein Entscheidungs-Thema für die Bereinigung ist in Vorbereitung; bis dahin gilt: Verwende die oben dokumentierten Labels, setze keine neuen ein.
+Der Label-Bestand ist historisch gewachsen und wird bereinigt. Im Repository existieren weitere Labels, die hier bewusst nicht als Konvention geführt werden: die GitHub-Standardlabels `bug`, `documentation`, `duplicate`, `enhancement`, `good first issue`, `help wanted`, `invalid`, `question` und `wontfix` (ohne definierte Verwendung bei uns) sowie `blockiert` (doppelt die gleichnamige Board-Spalte). Über die Bereinigung ist noch nicht entschieden; bis dahin gilt: Verwende die oben dokumentierten Labels, setze keine neuen ein.
 
 </details>
 
@@ -76,6 +76,6 @@ Der Label-Bestand ist historisch gewachsen und wird bereinigt. Im Repository exi
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 50
 * Textauszug: Diese Seite listet die Issue-Typen und Labels, mit denen wir Sitzungen, Themen und Aufgaben im Repository kennzeichnen.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 90

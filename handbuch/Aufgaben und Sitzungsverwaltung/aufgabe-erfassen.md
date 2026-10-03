@@ -30,9 +30,9 @@ Aufgaben entstehen meist aus Sitzungsbeschlüssen und werden als eigenes Issue g
    * **Beschreibung:** Was genau ist zu tun?
    * **Erledigungskriterium:** Woran erkennen wir, dass die Aufgabe fertig ist?
    ![Das Formular der Vorlage Aufgabe mit den Feldern Verantwortlich, Fällig bis, Herkunft, Abhängigkeiten, Beschreibung und Erledigungskriterium.](_attachments/aufgabe-formular.webp)
-1. Weise die verantwortliche Person als Assignee zu.
-2. Erstelle das Issue.
-3. Öffne das Issue im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) und trage die Fälligkeit im Feld **Datum** ein. So erscheint sie direkt auf der Karte.
+4. Weise die verantwortliche Person als Assignee zu.
+5. Erstelle das Issue.
+6. Öffne das Issue im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) und trage die Fälligkeit im Feld **Datum** ein. So erscheint sie direkt auf der Karte.
    ![Das Seitenpanel einer Aufgabe im Board mit gesetztem Feld Datum; die Fälligkeit erscheint auf der Karte.](_attachments/datum-feld.webp)
 
 ## Ergebnis
@@ -68,6 +68,6 @@ Ein klar formuliertes Erledigungskriterium („Woran erkennen wir, dass es ferti
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 20
 * Textauszug: So legst du eine Aufgabe (Action Item) im Repository an.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 180

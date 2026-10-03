@@ -70,9 +70,9 @@ Prüfe bei jedem Entwurf und jeder Überarbeitung, ob ein Diagramm die Beschreib
 * **ASCII-Diagramme sind verboten.** Sie rendern auf den Handbuch-Seiten schlecht. Bestehende ASCII-Diagramme werden bei jeder Überarbeitung (W2) in Mermaid umgewandelt.
 * **Ablaufdiagramme hochkant:** Flussdiagramme standardmäßig vertikal (`flowchart TD`); die Inhaltsspalte ist schmal, horizontale Diagramme werden klein. `flowchart LR` nur, wenn das Diagramm sonst unnötig hoch würde.
 * **Robuste Syntax:** Alle Knoten- und Kantentexte in gerade Anführungszeichen setzen; keine typografischen Anführungszeichen in Labels (sie brechen den Parser).
-* **Vektorgrafiken (SVG):** Für Inhalte, die Mermaid nicht abbilden kann (Oberflächen-Skizzen, Icons, präzise Layouts), eine SVG-Datei im `assets`-Ordner des Bereichs ablegen und mit Alt-Text einbinden.
+* **Vektorgrafiken (SVG):** Für Inhalte, die Mermaid nicht abbilden kann (Oberflächen-Skizzen, Icons, präzise Layouts), eine SVG-Datei im Ordner `_attachments` des Bereichs ablegen und mit Alt-Text einbinden.
 * **Sparsam und lesbar:** Ein Diagramm pro Sachverhalt, kurze Knotentexte, keine Deko. Das Diagramm ersetzt Text, es verdoppelt ihn nicht (P5).
-* **Screenshots bei UI-Anleitungen:** Prüfe pro Hauptschritt, ob ein Screenshot hilft. Fehlende Bilder als HTML-Kommentar-Platzhalter mit Ziel-Dateiname (`assets/`) und Alt-Text einfügen und in einer Screenshot-Arbeitsliste festhalten; die Bilder liefert der Mensch.
+* **Screenshots bei UI-Anleitungen:** Prüfe pro Hauptschritt, ob ein Screenshot hilft. Fehlende Bilder als HTML-Kommentar-Platzhalter mit Ziel-Dateiname (`_attachments/`) und Alt-Text einfügen und in einer Screenshot-Arbeitsliste festhalten; die Bilder liefert der Mensch.
 
 ## Tiefe trotz Kürze: Hintergrund und weiterführende Links (Pflichtprüfung)
 
@@ -187,7 +187,7 @@ Wenn ein Entwurf fertig ist und in WordPress eingepflegt werden soll: Lade `refe
 * Er **setzt keine Datumsangaben**, die er nicht kennt (`[JJJJ-MM-TT]`).
 * Er **teilt nicht ungefragt auf** und **verwendet keine Mischformen**. Lieber zwei kurze Seiten als eine vermischte.
 * Er **schreibt Metadaten nie als dauerhaften Seiteninhalt**. Im Markdown-Entwurf reisen sie im Transport-Block mit; in WordPress leben sie ausschließlich in Feldern.
-* Er **baut keine ASCII-Diagramme**; Diagramme entstehen als Mermaid-Codeblöcke oder als SVG in `assets`.
+* Er **baut keine ASCII-Diagramme**; Diagramme entstehen als Mermaid-Codeblöcke oder als SVG in `_attachments`.
 * Er **verweist nie auf Kapitel oder Dateinamen ohne Link**; jeder Verweis ist ein klickbarer Link.
 
 ## Quellen, auf denen dieser Skill basiert

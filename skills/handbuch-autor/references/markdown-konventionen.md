@@ -54,12 +54,12 @@ Inhalt in normalem Markdown.
 * **Mermaid statt ASCII (Pflicht).** ASCII-Diagramme rendern auf den Handbuch-Seiten schlecht und sind verboten. Diagramme entstehen als Mermaid-Codeblock (```` ```mermaid ````); der Markdown-Import wandelt ihn in einen Mermaid-Block um, der im Editor und Frontend gerendert wird.
 * **Ablaufdiagramme hochkant:** Flussdiagramme standardmäßig vertikal (`flowchart TD`); die Inhaltsspalte ist schmal, horizontale Diagramme werden klein. `flowchart LR` nur, wenn das Diagramm sonst unnötig hoch würde.
 * **Aktiv einsetzen:** Wo ein Diagramm die Beschreibung verdeutlicht und kürzt (Abläufe mit Übergaben, Zustandswechsel, Hierarchien, Seiten-Zusammenhänge), ersetzt es den langen Text (P5: ersetzen, nicht verdoppeln).
-* **Vektorgrafiken (SVG):** Für Inhalte, die Mermaid nicht abbilden kann (Oberflächen-Skizzen, Icons, präzise Layouts), eine SVG-Datei im `assets`-Ordner des Bereichs ablegen und mit Alt-Text einbinden.
+* **Vektorgrafiken (SVG):** Für Inhalte, die Mermaid nicht abbilden kann (Oberflächen-Skizzen, Icons, präzise Layouts), eine SVG-Datei im Ordner `_attachments` des Bereichs ablegen und mit Alt-Text einbinden.
 
 ## Screenshots
 
 * **Bei UI-Anleitungen pro Hauptschritt prüfen**, ob ein Screenshot zeigt, wo geklickt oder hingeschaut werden muss; wenn ja, einplanen.
-* **Ablage:** Bilder im `assets`-Ordner des Bereichs, Dateinamen klein und ohne Umlaute, Einbindung mit beschreibendem Alt-Text.
+* **Ablage:** Bilder im Ordner `_attachments` des Bereichs, Dateinamen klein und ohne Umlaute, Einbindung mit beschreibendem Alt-Text.
 * **Fehlende Bilder:** an der Zielstelle ein HTML-Kommentar mit der fertigen Bildzeile (`<!-- SCREENSHOT: ![Alt-Text](assets/datei.webp) -->`) und Eintrag in der Screenshot-Arbeitsliste; Screenshots liefert der Mensch, der Skill erfindet keine Bilder.
 
 ## Transport-Block am Ende des Entwurfs (Pflicht)

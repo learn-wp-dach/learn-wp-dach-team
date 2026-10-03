@@ -144,7 +144,7 @@ Wann und wie Aufklappbereiche eingesetzt werden, steht in [Inhaltstypen und Vorl
 * **Mermaid statt ASCII (Pflicht).** ASCII-Diagramme rendern auf den Handbuch-Seiten schlecht und sind verboten. Diagramme entstehen als Mermaid-Codeblock (```` ```mermaid ````); der Markdown-Import macht daraus einen gerenderten Mermaid-Block.
 * **Ablaufdiagramme hochkant.** Flussdiagramme stehen standardmäßig vertikal (`flowchart TD`): Die Inhaltsspalte ist schmal, horizontale Diagramme werden unlesbar klein. Quer (`flowchart LR`) nur, wenn das Diagramm sonst unnötig hoch würde.
 * **Aktiv einsetzen**, wo ein Diagramm die Beschreibung verdeutlicht und kürzt (Abläufe mit Übergaben, Zustandswechsel, Hierarchien). Das Diagramm ersetzt Text, es verdoppelt ihn nicht (P5).
-* **Vektorgrafiken (SVG)** für Inhalte, die Mermaid nicht abbilden kann, im `assets`-Ordner des Bereichs ablegen und mit Alt-Text einbinden.
+* **Vektorgrafiken (SVG)** für Inhalte, die Mermaid nicht abbilden kann, im Ordner `_attachments` des Bereichs ablegen und mit Alt-Text einbinden.
 
 ### Listen
 
@@ -164,7 +164,7 @@ Wann und wie Aufklappbereiche eingesetzt werden, steht in [Inhaltstypen und Vorl
 
 ### Screenshots
 
-Bei Anleitungen mit Benutzeroberfläche prüfe pro Hauptschritt: Zeigt ein Screenshot, wo die lesende Person klicken oder hinschauen muss? Wenn ja, plane ihn ein. Bilder liegen im `assets`-Ordner des Bereichs und werden mit beschreibendem Alt-Text eingebunden. Liegt das Bild noch nicht vor, kommt an die Stelle ein HTML-Kommentar mit der fertigen Bildzeile (Ziel-Dateiname und Alt-Text), und die Datei wird in einer Screenshot-Arbeitsliste erfasst. So bleibt der Text schreibbar, und kein Bild geht vergessen.
+Bei Anleitungen mit Benutzeroberfläche prüfe pro Hauptschritt: Zeigt ein Screenshot, wo die lesende Person klicken oder hinschauen muss? Wenn ja, plane ihn ein. Bilder liegen im Ordner `_attachments` des Bereichs und werden mit beschreibendem Alt-Text eingebunden. Liegt das Bild noch nicht vor, kommt an die Stelle ein HTML-Kommentar mit der fertigen Bildzeile (Ziel-Dateiname und Alt-Text), und die Datei wird in einer Screenshot-Arbeitsliste erfasst. So bleibt der Text schreibbar, und kein Bild geht vergessen.
 
 ### Anker für Sprungziele
 
@@ -225,6 +225,6 @@ Diese Fehler tauchen bei uns am häufigsten auf; die zugehörige Regel steht jew
 * Eltern-Seite: Handbuch-Erstellung
 * Reihenfolge: 30
 * Textauszug: Diese Seite legt die verbindlichen Schreibregeln, Terminologie-Konventionen und Markdown-Konventionen für alle Handbuch-Seiten fest.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-05-03
 * Prüfintervall: 365

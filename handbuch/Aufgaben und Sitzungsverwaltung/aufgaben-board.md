@@ -17,7 +17,7 @@ Alle Teammitglieder. Jedes Mitglied kann eigene Aufgaben einsehen, Themen einrei
 
 ## Zugang
 
-Das Board ist öffentlich lesbar unter [Learn WP DACH – Aufgaben](https://github.com/orgs/learn-wp-dach/projects/1). Schreibrechte (Karten verschieben, Labels setzen) erhalten eingeladene Teammitglieder als Collaborators; siehe [Neu im Team](neu-im-team.md).
+Das Board ist öffentlich lesbar unter [Learn WP DACH – Aufgaben](https://github.com/orgs/learn-wp-dach/projects/1). Schreibrechte (Karten verschieben, Labels setzen) erhalten Mitglieder unserer GitHub-Organisation; siehe [Neu im Team](neu-im-team.md).
 
 ## Spalten
 
@@ -71,7 +71,7 @@ Einiges musst du nie von Hand tun; dafür sorgen eingebaute Automatisierungen:
 
 * **Neue Issues erscheinen von selbst im Board**, Aufgaben starten in der Spalte *Offen*.
 * **Themen-Issues** (Label `thema`) werden automatisch in die Spalte *Themen* verschoben.
-* **Die Repository-Startseite** pflegt sich selbst: Die Tabellen der anstehenden Sitzungen und das Protokoll-Archiv werden aus den Sitzungs-Issues erzeugt, sobald sich dort etwas ändert.
+* **Die Terminübersicht auf der Webseite** pflegt sich selbst: Anstehende Sitzungen und Protokolle unter [Monatliche Treffen](https://learn-wp-dach.org/termine/monatliche-treffen/) werden automatisch aus den Sitzungs-Issues erzeugt.
 
 ## Offizielle Dokumentation
 
@@ -87,7 +87,7 @@ Einiges musst du nie von Hand tun; dafür sorgen eingebaute Automatisierungen:
 
 | Begriff | Definition |
 |---|---|
-| Collaborator | Person mit Schreibrechten im Repository und Board, von der Repository-Administration eingeladen. |
+| Mitglied der Organisation | Person, die in unsere GitHub-Organisation learn-wp-dach eingeladen wurde und die Einladung angenommen hat; hat Schreibrechte im Repository und im Board. |
 | View | Gespeicherte Ansicht des Boards mit festen Filtern und Gruppierungen. |
 | Assignee | Die auf GitHub als verantwortlich eingetragene Person eines Issues. |
 
@@ -100,6 +100,6 @@ Einiges musst du nie von Hand tun; dafür sorgen eingebaute Automatisierungen:
 * Eltern-Seite: Aufgaben und Sitzungsverwaltung
 * Reihenfolge: 40
 * Textauszug: Das Aufgaben-Board ist das Kanban Board, in dem alle Themen, Aufgaben und Sitzungs-Issues verwaltet werden.
-* Letzte Aktualisierung: 2026-07-28
+* Letzte Aktualisierung: 2026-09-29
 * Letzte Prüfung: 2026-07-28
 * Prüfintervall: 90
