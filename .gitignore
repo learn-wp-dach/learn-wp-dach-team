@@ -1,0 +1,5 @@
+.DS_Store
+
+# Editor- und Umgebungsordner gehoeren nicht ins Repo
+.vscode/
+.venv/

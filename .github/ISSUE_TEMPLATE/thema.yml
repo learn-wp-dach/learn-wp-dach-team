@@ -1,0 +1,42 @@
+name: "Thema"
+description: "Diskussionsthema für die nächste Sitzung vorschlagen"
+title: "Thema: "
+labels: ["thema"]
+body:
+  - type: input
+    id: vorgeschlagen-von
+    attributes:
+      label: Vorgeschlagen von
+      placeholder: "Name"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: art
+    attributes:
+      label: Art des Themas
+      options:
+        - "Information (kein Entscheid nötig)"
+        - "Diskussion (Meinungsaustausch)"
+        - "Entscheidung (Beschluss erforderlich)"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > **Zeitbedarf:** Nach dem Erstellen dieses Issues das Feld **Estimate** im [Aufgaben-Board](https://github.com/orgs/learn-wp-dach/projects/1) ausfüllen (Anzahl Minuten). So ist bei der Sitzungsplanung ersichtlich, wie lange die Sitzung dauern wird.
+
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibung
+      description: "Was ist das Thema, warum ist es relevant?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: ergebnis
+    attributes:
+      label: Gewünschtes Ergebnis
+      description: "Was soll am Ende dieser Sitzung entschieden oder besprochen sein?"

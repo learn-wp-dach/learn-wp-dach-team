@@ -1,0 +1,119 @@
+name: sitzungen.json aktualisieren
+
+# Erzeugt aus allen Issues mit Label "sitzung" eine sitzungen.json
+# und committet sie auf den data-Branch. Auf main wird nichts geschrieben,
+# die Sitzungen erscheinen auf learn-wp-dach.org (Beschluss 2026-09-12).
+#
+# Pfad-Empfehlung: .github/workflows/sitzungen-json.yml im Repo learn-wp-dach-team
+
+on:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
+  schedule:
+    # Alle 12 Stunden (03:17 und 15:17 UTC – exotische Minuten, um Action-Spitzen zu meiden).
+    - cron: '17 3,15 * * *'
+  # Manueller Trigger über die Actions-Oberfläche oder gh CLI.
+  workflow_dispatch:
+
+# Nur ein Lauf gleichzeitig – verhindert Push-Konflikte auf den data-Branch.
+concurrency:
+  group: sitzungen-json
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Reagiere auf Issue-Events nur, wenn das Issue das Label "sitzung" trägt.
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      contains(github.event.issue.labels.*.name, 'sitzung')
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: read
+
+    steps:
+      - name: Aktuellen main-Branch auschecken (für Workflow-Datei selbst)
+        uses: actions/checkout@v4
+
+      - name: Issues lesen
+        id: fetch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list \
+            --repo ${{ github.repository }} \
+            --label sitzung \
+            --state all \
+            --limit 200 \
+            --json number,title,body,state,closedAt,url,labels \
+            > /tmp/issues.json
+
+          echo "Anzahl Issues mit Label 'sitzung':"
+          jq 'length' /tmp/issues.json
+
+      - name: JSON erzeugen
+        run: |
+          python3 .github/scripts/build-sitzungen-json.py \
+            --input /tmp/issues.json \
+            --repo "${{ github.repository }}" \
+            --output /tmp/sitzungen.json
+
+          echo "Erzeugte sitzungen.json:"
+          jq . /tmp/sitzungen.json | head -40
+
+      - name: data-Branch auschecken oder anlegen
+        run: |
+          git config user.name "Learn WP DACH Automat"
+          git config user.email "actions@learn-wp-dach.org"
+
+          # Versuche, den data-Branch zu checken.
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch origin data
+            git checkout data
+          else
+            # Orphan-Branch initial anlegen.
+            git checkout --orphan data
+            git rm -rf . 2>/dev/null || true
+            cat > README.md <<'EOF'
+          # data-Branch
+
+          Dieser Branch wird durch die GitHub Action `sitzungen-json.yml`
+          automatisch gepflegt. Bitte **nicht** manuell editieren.
+
+          Die Datei `sitzungen.json` enthält eine maschinenlesbare Version
+          aller Issues mit dem Label `sitzung`.
+          EOF
+            git add README.md
+            git commit -m "Initial commit für data-Branch"
+          fi
+
+      - name: sitzungen.json committen
+        run: |
+          cp /tmp/sitzungen.json sitzungen.json
+          git add sitzungen.json
+
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen – nichts zu committen."
+            exit 0
+          fi
+
+          MSG="Update sitzungen.json"
+          if [ -n "${{ github.event.issue.number }}" ]; then
+            MSG="${MSG} (Issue #${{ github.event.issue.number }})"
+          fi
+          git commit -m "${MSG}"
+
+          # Push mit Retry: bei parallelen Läufen oder manuellen Commits am
+          # data-Branch rebasen wir mit "unsere Version gewinnt" und pushen
+          # nochmal. Bis zu 3 Versuche.
+          for attempt in 1 2 3; do
+            if git push origin data; then
+              break
+            fi
+            echo "Push abgelehnt (Versuch $attempt) — rebase + retry..."
+            git fetch origin data
+            git rebase -X ours origin/data || git rebase --abort
+          done

@@ -1,0 +1,46 @@
+name: "Aufgabe"
+description: "Action Item aus einer Sitzung"
+title: "Aufgabe: "
+labels: ["aufgabe"]
+body:
+  - type: input
+    id: verantwortlich
+    attributes:
+      label: Verantwortlich
+      description: "GitHub-Username (z.B. @rfluethi)"
+      placeholder: "@username"
+    validations:
+      required: true
+
+  - type: input
+    id: faellig
+    attributes:
+      label: Fällig bis
+      placeholder: "2026-05-10"
+
+  - type: input
+    id: herkunft
+    attributes:
+      label: Herkunft (Sitzungs-Issue)
+      description: "Aus welcher Sitzung stammt diese Aufgabe?"
+      placeholder: "#42"
+
+  - type: input
+    id: abhaengigkeiten
+    attributes:
+      label: Abhängigkeiten
+      description: "Was muss vorher erledigt sein?"
+      placeholder: "z.B. #15 oder 'Entscheid über Repository-Ort'"
+
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Was muss gemacht werden?
+    validations:
+      required: true
+
+  - type: textarea
+    id: erledigungskriterium
+    attributes:
+      label: Erledigungskriterium
+      description: "Woran erkennen wir, dass die Aufgabe fertig ist?"
