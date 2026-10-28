@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-28T09:39:46Z",
+  "generated_at": "2026-10-28T11:55:52Z",
   "source_repo": "learn-wp-dach/learn-wp-dach-team",
   "upcoming_sessions": [
     {
       "title": "Sitzung",
       "session_date": "2026-10-28",
-      "session_time": "20:00",
+      "session_time": "19:00",
       "url": "https://github.com/learn-wp-dach/learn-wp-dach-team/issues/86"
     }
   ],
